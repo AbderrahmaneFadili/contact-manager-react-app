@@ -1,0 +1,12 @@
+.edit-contact {
+  margin-right: 1rem;
+}
+.edit-contact,
+.delete-contact {
+  cursor: pointer;
+}
+
+.edit-contact:active svg,
+.delete-contact:active {
+  transform: scale(1.3);
+}
